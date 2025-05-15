@@ -22,7 +22,7 @@
         "NodeJS": "ghcr.io\/parkervcp\/yolks:nodejs_24"
     },
     "file_denylist": [],
-    "startup": "npm install && node .",
+    "startup": "npm install && echo 'TOKEN="{{BOT_TOKEN}}"' > .env && node .",
     "config": {
         "files": "{}",
         "startup": "{}",
